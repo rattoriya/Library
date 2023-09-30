@@ -1,0 +1,8 @@
+викуся|1509442|false
+vika|1509442|false
+a|49|false
+hello|49|true
+|0|false
+jack|1540226|false
+sasha|49590|false
+sashka|49590|true
