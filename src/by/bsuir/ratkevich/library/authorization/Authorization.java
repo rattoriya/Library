@@ -19,7 +19,7 @@ public class Authorization {
 
         while (true) {
 
-            System.out.println("Введите логин/мя пользователя:");
+            System.out.println("Введите логин/имя пользователя:");
             userName = in.nextLine();
 
             System.out.println("Введите пароль:");

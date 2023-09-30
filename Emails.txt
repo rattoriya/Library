@@ -1,2 +1,3 @@
-a|a|1|ELECTRONICBOOK
-sasha|a|a|ELECTRONICBOOK
+vika|War and Peace|Leo Tolstoy|ELECTRONICBOOK
+sasha|Crime and Punishment|Fyodor Dostoevsky|ELECTRONICBOOK
+kate|Crime and Punishment|Fyodor Dostoevsky|ELECTRONICBOOK

@@ -81,6 +81,11 @@ public class UserHandler {
             return null;
         }
 
+        if (! users.get(userName).equals(password+"|"+isAdmin)) {
+
+            return null;
+        }
+
         return new User (userName, password.hashCode(),isAdmin);
     }
 
