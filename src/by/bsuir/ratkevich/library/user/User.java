@@ -46,6 +46,25 @@ public class User {
     }
 
     @Override
+    public boolean equals (Object o) {
+
+        if (this == o) return true;
+        if (o == null || o.getClass()!=getClass()) return false;
+
+        User user = (User) o;
+
+        return userName.equals(user.getUserName())
+                && passwordHash == user.getPasswordHash()
+                && isAdmin == user.getIsAdmin();
+    }
+
+    @Override
+    public int hashCode () {
+
+        return 17*32*userName.hashCode()*passwordHash;
+    }
+
+    @Override
     public String toString () {
 
         return "User: "+ userName;
